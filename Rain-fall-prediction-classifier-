@@ -1,0 +1,12 @@
+# In your local terminal, create a folder and add the files
+mkdir aus-weather-prediction && cd aus-weather-prediction
+
+# Initialize git and add your files
+git init
+git add .
+git commit -m "Initial commit: Australian rainfall prediction project"
+
+# Link to your GitHub repo and push
+git remote add origin https://github.com/<your-username>/aus-weather-prediction.git
+git branch -M main
+git push -u origin main
